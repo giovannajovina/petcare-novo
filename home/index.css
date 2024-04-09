@@ -9,6 +9,9 @@ main{
     background: url(../images/capa_home.png);
     background-size: cover;
     height: 510px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
 
 }
 .botoes-login{
@@ -24,7 +27,10 @@ main{
 }
 
 .texto-capa{
+    font-weight: bold;
     color: white;
     width: 500px;
-    font-size: 50px;
+    font-size: 47px;
+    margin-right: 183px;
+    margin-top: 40px;
 }
