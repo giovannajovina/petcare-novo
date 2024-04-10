@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Esqueci Minha Senha</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+  <div class="imagem">
+      <img src="../esqueci senha/LogoEsqueciMinhaSenha.png" alt="logo1">
+  </div> 
+  <div class="conteudo">
+    <h2>Esqueci Minha Senha</h2>
+    <h4>Nós da PETCare lamentamos que tenha esquecido <br>
+      sua senha, mas não se preocupe, trabalharemos para <br>
+      recuperá-la o mais rápido possível!</h6>
+    <div class="formulario">
+      <form id="forgot-password-form">
+        <div class="form-group">
+          <input type="email" id="email" name="email" placeholder="📧Digite seu email" required>
+        </div>
+        <div class="form-group">
+          <button type="submit">Recuperar Senha</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+</body>
+</html>
