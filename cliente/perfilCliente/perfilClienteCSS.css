@@ -1,0 +1,465 @@
+style {
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap')
+}
+
+
+body {
+    background: orange; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif 
+}
+
+p {
+    position: absolute;
+    width: 321px;
+    height: 17px;
+    left: 77px;
+    top: 219px;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    
+    color: #F5F5F5;    
+}
+
+input {
+    position: absolute;
+    height: 50px;
+    width: auto;
+    left: 90px;
+    right: 1px;
+    bottom: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    max-width: fit-content;
+}
+
+select {
+    position: absolute;
+    height: 50px;
+    width: auto;
+    left: 90px;
+    right: 1px;
+    bottom: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    max-width: fit-content;
+}
+#box-info {
+position: absolute;
+width: 1342px;
+height: 570px;
+left: 49px;
+top: 325px;
+
+
+background: rgba(255, 255, 255, 0.97);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 17px;
+}
+
+#imagem-cliente {
+position: absolute;
+width: 161px;
+height: 161px;
+left: 131px;
+top: 50px;
+
+background: url("../../images/cliente.png"), url("../../images/cliente.png");
+border-radius: 76px;
+}
+
+#vetor-lapis { /* pra alteração */
+
+position: absolute;
+left: 27.64%;
+right: 70.50%;
+top: 22.27%;
+bottom: 75.50%;
+max-width: 100%;
+height: auto;
+object-fit: cover;
+
+background: url("../../images/vetor_lapis.png"), url("../../images/vetor_lapis.png");
+}
+
+#retangulo-1 {
+
+position: absolute;
+width: 372px;
+height: 78px;
+left: 102px;
+top: 380px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 3px 4px rgba(242, 137, 7, 0.7);
+border-radius: 21px;
+}
+
+#texto-nascimento {
+
+position: absolute;
+width: 163.26px;
+height: 54.72px;
+left: 175px;
+top: 406px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 34px;
+display: none;
+color: rgba(0, 0, 0, 0.5);
+}
+
+#vetor-lapis-calendario { /* pra alteração */
+
+position: absolute;
+left: 27.64%;
+right: 70.60%;
+top: 39.84%;
+bottom: 56.60%;
+
+background: url("../../images/vetor_lapis_laranja.png");
+}
+
+#vetor-calendario { /* pra alteração */
+
+position: absolute;
+left: 8.61%;
+right: 89.58%;
+top: 39.75%;
+bottom: 56.80%;
+
+background: url("../../images/vetor_calendario.png");
+}
+
+#retangulo-2 {
+
+position: absolute;
+width: 409px;
+height: 78px;
+left: 546px;
+top: 380px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 3px 4px rgba(242, 137, 7, 0.7);
+border-radius: 21px;
+}
+
+#texto-email {
+
+position: absolute;
+width: 321px;
+height: 55px;
+left: 614px;
+top: 403px;
+display: none;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 34px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+#vetor-email { /* pra alteração */
+
+position: absolute;
+left: 39.1%;
+right: 59.1%;
+top: 40.04%;
+bottom: 56.60%;
+
+background: url("../../images/vetor_email.png");
+}
+
+#vetor-lapis-email { /* pra alteração */
+
+position: absolute;
+left: 63.75%;
+right: 34.38%;
+top: 39.84%;
+bottom: 57.52%;
+
+background: url("../../images/vetor_lapis_laranja.png");
+}
+
+#retangulo-3 {
+
+position: absolute;
+width: 372px;
+height: 78px;
+left: 990px;
+top: 380px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 3px 4px rgba(242, 137, 7, 0.7);
+border-radius: 21px;
+}
+
+#texto-localizacao {
+
+position: absolute;
+width: 227px;
+height: 34px;
+left: 1058px;
+top: 403px;
+display: none;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 37px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+#vetor-lapis-localizacao { /* pra alteração */
+
+position: absolute;
+left: 91.32%;
+right: 6.90%;
+top: 39.36%;
+bottom: 57%;
+
+background: url("../../images/vetor_lapis_laranja.png");
+}
+
+#vetor-localizacao { /* pra alteração */
+
+position: absolute;
+left: 71.11%;
+right: 27.52%;
+top: 40.82%;
+bottom: 55.8%;
+
+background: url("../../images/vetor_localizacao.png");
+}
+
+#retangulo-4 {
+
+position: absolute;
+width: 373px;
+height: 75px;
+left: 102px;
+top: 524px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 3px 4px rgba(242, 137, 7, 0.7);
+border-radius: 21px;
+}
+
+#vetor-lapis-telefone { /* pra alteração */
+
+position: absolute;
+left: 27.64%;
+right: 70.55%;
+top: 53.12%;
+bottom: 43.25%;
+
+background: url("../../images/vetor_lapis_laranja.png");
+}
+
+#texto-telefone {
+
+position: absolute;
+width: 251px;
+height: 31px;
+left: 182px;
+top: 544px;
+display: none;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 34px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+#vetor-telefone { /* pra alteração */
+
+position: absolute;
+left: 9.44%;
+right: 88.90%;
+top: 53.80%;
+bottom: 43%;
+
+background: url("../../images/vetor_telefone.png");
+}
+
+#retangulo-5 {
+
+position: absolute;
+width: 372px;
+height: 78px;
+left: 546px;
+top: 524px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 3px 4px rgba(242, 137, 7, 0.7);
+border-radius: 21px;
+}
+
+#vetor-lapis-cpf { /* pra alteração */
+
+position: absolute;
+left: 59.72%;
+right: 38.50%;
+top: 52.64%;
+bottom: 43.70%;
+
+background: url("../../images/vetor_lapis_laranja.png");
+}
+
+#vetor-cpf { /* pra alteração */
+
+position: absolute;
+left: 39.51%;
+right: 58.80%;
+top: 53.32%;
+bottom: 43.45%;
+
+background: url("../../images/vetor_cpf.png");
+}
+
+#texto-cpf {
+
+position: absolute;
+width: 292px;
+height: 54.72px;
+left: 614px;
+top: 539px;
+display: none;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 45px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+#retangulo-6 {
+
+position: absolute;
+width: 372px;
+height: 75px;
+left: 990px;
+top: 524px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 3px 4px rgba(242, 137, 7, 0.7);
+border-radius: 21px;
+}
+
+#texto-sexo {
+
+position: absolute;
+width: 251px;
+height: 31px;
+left: 1068px;
+top: 542px;
+display: none;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 34px;
+
+color: rgba(0, 0, 0, 0.5);
+}
+
+#vetor-sexo { /* pra alteração */
+
+position: absolute;
+left: 70.6%;
+right: 27.70%;
+top: 53.32%;
+bottom: 43.30%;
+
+background: url("../../images/vetor_sexo.png");
+}
+
+#vetor-lapis-sexo { /* pra alteração */
+
+position: absolute;
+left: 91.32%;
+right: 6.81%;
+top: 53.52%;
+bottom: 43.85%;
+
+background: url("../../images/vetor_lapis_laranja.png");
+}
+
+#altere-senha {
+
+position: absolute;
+width: 351px;
+height: 31px;
+left: 102px;
+top: 790px;
+cursor: pointer; 
+pointer-events: auto; 
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+
+color: #F28907;
+}
+
+#altere-senha:hover {
+    text-decoration: underline;
+}
+
+#botao-confirmar {
+
+position: absolute;
+width: 383px;
+height: 96px;
+left: 959px;
+top: 757px;
+cursor: pointer; 
+pointer-events: auto;
+
+background: #F28907;
+border-radius: 11px;
+}
+
+#botao-confirmar:hover {
+    text-decoration: underline;
+}
+#mensagem-confirmar {
+
+position: absolute;
+width: 392px;
+height: 31px;
+left: 939px;
+top: 788px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 37px;
+text-align: center;
+
+color: #FFFFFF;
+}
