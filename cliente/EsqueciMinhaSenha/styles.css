@@ -1,0 +1,70 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.imagem {
+  flex: 1;
+  text-align: center;
+}
+
+.imagem img {
+  max-width: 100%;
+  height: auto;
+}
+
+.conteudo {
+  flex: 1;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.26px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 80px;
+  color: orange;
+  font-size: 36px;
+  font-family: Roboto;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 87.25px;
+  text-align: center;
+}
+
+.formulario {
+  margin-top: 30px;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+input, button {
+  border-radius: 86px;
+  width: 300px; 
+  border-color: #ffa600;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: center;
+  padding: 10px 20px;
+  display: block; 
+  margin: 0 auto;
+}
+
+button {
+  border-color: orange;
+  background-color: orange;
+  color: aliceblue;
+}
