@@ -1,0 +1,120 @@
+body {
+  font-family: sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+}
+.left-section {
+  width: 35%;
+  background-image: url('../../petcare-novo/images/cachorro-cadastro.png');
+  background-position: left;
+  background-size: 120%;
+}
+.right-section {
+  width: 60%;
+  margin-left: 35px;
+  margin-bottom: auto;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #F28907;
+}
+form {
+  text-align: center;
+
+}
+.grupo1 {
+  text-align: center;
+  margin-bottom: 2%;
+
+}
+.checkbox-group {
+  border: 2px solid #000; 
+  border-color: #F28907;
+  border-radius: 15px;
+  display: inline-block;
+  padding: 12px;
+  margin-bottom: 20px;
+  width: calc(50% - 33px)   
+}
+.checkbox-group label {
+  display: inline-block;
+  text-align: center;
+  margin-right: 10px; 
+}
+.checkbox-group img {
+  display: block;
+  margin-top: 5px; 
+  margin-left: auto; 
+  margin-right: auto; 
+}
+.file-input-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 50%; 
+  text-align: center;
+}
+.file-input {
+  position: absolute;
+  font-size: 100px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+.file-input-label {
+  display: block;
+  width: 150px;
+  height: 150px;
+  background-image: url('../../petcare-novo/images/foto-do-animal\(arquivo\).png'); 
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer; 
+  border-radius: 50%; 
+  box-shadow: 0 0 50px #030303;
+  line-height: 150px;
+}
+input[type="text"], select {
+  width: calc(50% - 10px); 
+  padding: 15px;
+  margin-top: 5px;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border-color: #F28907;
+}
+select {
+  width: calc(50% - 5px);
+}
+.peso-animal {
+  border: 2px solid #000;
+  border-radius: 20px;
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 30px;
+  border-color: #F28907;
+  width: calc(100% - 40px);
+  
+}
+.imagem-peso {
+  margin-right: 90px;
+}
+.imagem-peso img{
+  margin-left: 70px;
+  width:  80px;
+}
+.peso [type='checkbox'] {
+  margin-inline: 82px;
+}
+button {
+  width: 250px;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #F28907;
+  border: none;
+  color: white;
+}

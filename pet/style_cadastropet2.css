@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+.left-section {
+    width: 35%;
+    background-image: url('../../petcare-novo/images/cachorro-cadastro.png');
+    background-position: left;
+    background-size: 120%;
+}
+.right-section {
+    width: 60%;
+    margin-left: 35px;
+    margin-bottom: auto;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #F28907;
+}
+form {
+    text-align: center;
+    padding: 20px;
+}
+.grupo {
+    margin-bottom: 15px;  
+}
+select {
+    width: calc(50% - 5px);
+    height: 45px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #F28907;
+    box-shadow: 0 0 4px #F28907;
+}
+input {
+    width: calc(50% - 10px);
+    height: 41px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #F28907;
+    box-shadow: 0 0 4px #F28907;
+}
+textarea {
+    width: calc(100% - 10px);
+    height: 125px;
+    border-radius: 15px;
+    margin-bottom: 45px;
+    border-color: #F28907;
+    box-shadow: 0 0 4px #F28907;
+}
+.conta {
+    text-align: end;
+}
+.botao {
+    margin-bottom: 40px;
+}
+input[type="submit"] {
+    background-color: #F28907;
+}

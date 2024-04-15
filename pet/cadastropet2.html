@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_cadastropet2.css">
+    <title>Cadastro do PET</title>
+</head>
+<body>
+
+    <div class="left-section"></div>
+    <div class="right-section">
+
+        <h1>Cadastre seu PET</h1>
+
+        <form>
+            
+            <div class="grupo">
+                <input type="text" id="data_nascimento" name="data_nascimento" placeholder="Data de Nascimento">
+                <select id="vacinas" name="vacinas">
+                    <option value="vacina1">Vacinas</option>
+                    <option value="vacina2">Vacina 1</option>
+                    <option value="vacina3">Vacina 2</option>
+                </select>
+            </div>
+
+            <div class="grupo">
+                <select id="fase" name="fase">
+                    <option value="fase1">Fase</option>
+                    <option value="fase2">Fase 1</option>
+                    <option value="fase3">Fase 2</option>
+                </select>
+                <select id="raca" name="raca">
+                    <option value="raca1">Raça</option>
+                    <option value="raca2">Raça 1</option>
+                    <option value="raca3">Raça 2</option>
+                </select>
+            </div>
+
+            <div class="grupo">
+                <textarea id="observacoes" name="observacoes" placeholder="Nos conte um pouco sobre seu pet"></textarea>
+            </div>
+
+            <div class="botao">
+                <input type="submit" value="CADASTRAR">
+            </div>
+
+        </form>
+
+        <div class="conta">
+            <p>Não tem uma conta? <a href="">Cadastre-se</a></p>
+        </div>
+
+    </div>
+
+</body>
+</html>
