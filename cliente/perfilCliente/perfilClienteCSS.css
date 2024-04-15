@@ -4,7 +4,7 @@ style {
 
 
 body {
-    background: orange; 
+    background: #F28907; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,16 +77,13 @@ background: url("../../images/cliente.png"), url("../../images/cliente.png");
 border-radius: 76px;
 }
 
-#vetor-lapis { /* pra alteração */
+#vetor-lapis {
 
 position: absolute;
-left: 27.64%;
-right: 70.50%;
-top: 22.27%;
-bottom: 75.50%;
-max-width: 100%;
-height: auto;
-object-fit: cover;
+left: 26.64%;
+right: 71.55%;
+top: 37.27%;
+bottom: 60.35%;
 
 background: url("../../images/vetor_lapis.png"), url("../../images/vetor_lapis.png");
 }
@@ -121,26 +118,28 @@ display: none;
 color: rgba(0, 0, 0, 0.5);
 }
 
-#vetor-lapis-calendario { /* pra alteração */
+#vetor-lapis-calendario {
 
 position: absolute;
 left: 27.64%;
-right: 70.60%;
-top: 39.84%;
-bottom: 56.60%;
+right: 70.6%;
+top: 54.84%;
+bottom: 41.6%;
 
-background: url("../../images/vetor_lapis_laranja.png");
+background: url(../../images/vetor_lapis_laranja.png);
+background-repeat: no-repeat;
 }
 
-#vetor-calendario { /* pra alteração */
+#vetor-calendario {
 
 position: absolute;
 left: 8.61%;
-right: 89.58%;
-top: 39.75%;
-bottom: 56.80%;
+right: 89.70%;
+top: 54.75%;
+bottom: 41.85%;
 
-background: url("../../images/vetor_calendario.png");
+background: url(../../images/vetor_calendario.png);
+background-repeat: no-repeat;
 }
 
 #retangulo-2 {
@@ -174,26 +173,28 @@ line-height: 34px;
 color: rgba(0, 0, 0, 0.5);
 }
 
-#vetor-email { /* pra alteração */
+#vetor-email {
 
 position: absolute;
-left: 39.1%;
-right: 59.1%;
-top: 40.04%;
-bottom: 56.60%;
+left: 37.2%;
+right: 60.1%;
+top: 55.04%;
+bottom: 41.76%;
 
-background: url("../../images/vetor_email.png");
+background: url(../../images/vetor_email.png);
+background-repeat: no-repeat;
 }
 
-#vetor-lapis-email { /* pra alteração */
+#vetor-lapis-email {
 
 position: absolute;
-left: 63.75%;
-right: 34.38%;
-top: 39.84%;
-bottom: 57.52%;
+left: 58.75%;
+right: 39.45%;
+top: 54.84%;
+bottom: 41.52%;
 
-background: url("../../images/vetor_lapis_laranja.png");
+background: url(../../images/vetor_lapis_laranja.png);
+background-repeat: no-repeat;
 }
 
 #retangulo-3 {
@@ -226,26 +227,28 @@ line-height: 37px;
 color: rgba(0, 0, 0, 0.5);
 }
 
-#vetor-lapis-localizacao { /* pra alteração */
+#vetor-lapis-localizacao {
 
 position: absolute;
-left: 91.32%;
-right: 6.90%;
-top: 39.36%;
-bottom: 57%;
+left: 87.32%;
+right: 10.9%;
+top: 54.36%;
+bottom: 42%;
 
-background: url("../../images/vetor_lapis_laranja.png");
+background: url(../../images/vetor_lapis_laranja.png);
+background-repeat: no-repeat;
 }
 
-#vetor-localizacao { /* pra alteração */
+#vetor-localizacao {
 
 position: absolute;
-left: 71.11%;
-right: 27.52%;
-top: 40.82%;
-bottom: 55.8%;
+left: 67.11%;
+right: 31.52%;
+top: 54.5%;
+bottom: 41.8%;
 
-background: url("../../images/vetor_localizacao.png");
+background: url(../../images/vetor_localizacao.png);
+background-repeat: no-repeat;
 }
 
 #retangulo-4 {
@@ -261,15 +264,16 @@ box-shadow: 0px 0px 3px 4px rgba(242, 137, 7, 0.7);
 border-radius: 21px;
 }
 
-#vetor-lapis-telefone { /* pra alteração */
+#vetor-lapis-telefone {
 
 position: absolute;
 left: 27.64%;
 right: 70.55%;
-top: 53.12%;
-bottom: 43.25%;
+top: 74.12%;
+bottom: 22.25%;
 
-background: url("../../images/vetor_lapis_laranja.png");
+background: url(../../images/vetor_lapis_laranja.png);
+background-repeat: no-repeat;
 }
 
 #texto-telefone {
@@ -290,15 +294,16 @@ line-height: 34px;
 color: rgba(0, 0, 0, 0.5);
 }
 
-#vetor-telefone { /* pra alteração */
+#vetor-telefone {
 
 position: absolute;
-left: 9.44%;
-right: 88.90%;
-top: 53.80%;
-bottom: 43%;
+left: 8.44%;
+right: 89.89%;
+top: 73.8%;
+bottom: 23%;
 
-background: url("../../images/vetor_telefone.png");
+background: url(../../images/vetor_telefone.png);
+background-repeat: no-repeat;
 }
 
 #retangulo-5 {
@@ -314,26 +319,28 @@ box-shadow: 0px 0px 3px 4px rgba(242, 137, 7, 0.7);
 border-radius: 21px;
 }
 
-#vetor-lapis-cpf { /* pra alteração */
+#vetor-lapis-cpf {
 
 position: absolute;
-left: 59.72%;
-right: 38.50%;
-top: 52.64%;
-bottom: 43.70%;
+left: 57.72%;
+right: 40.5%;
+top: 74.64%;
+bottom: 21.7%;
 
-background: url("../../images/vetor_lapis_laranja.png");
+background: url(../../images/vetor_lapis_laranja.png);
+background-repeat: no-repeat;
 }
 
-#vetor-cpf { /* pra alteração */
+#vetor-cpf { 
 
 position: absolute;
-left: 39.51%;
-right: 58.80%;
-top: 53.32%;
-bottom: 43.45%;
+left: 37.51%;
+right: 60.8%;
+top: 74.32%;
+bottom: 22.45%;
 
-background: url("../../images/vetor_cpf.png");
+background: url(../../images/vetor_cpf.png);
+background-repeat: no-repeat;
 }
 
 #texto-cpf {
@@ -383,26 +390,28 @@ line-height: 34px;
 color: rgba(0, 0, 0, 0.5);
 }
 
-#vetor-sexo { /* pra alteração */
+#vetor-sexo {
 
 position: absolute;
-left: 70.6%;
-right: 27.70%;
-top: 53.32%;
-bottom: 43.30%;
+left: 67.6%;
+right: 30.7%;
+top: 74.32%;
+bottom: 22.3%;
 
-background: url("../../images/vetor_sexo.png");
+background: url(../../images/vetor_sexo.png);
+background-repeat: no-repeat;
 }
 
-#vetor-lapis-sexo { /* pra alteração */
+#vetor-lapis-sexo {
 
 position: absolute;
-left: 91.32%;
-right: 6.81%;
-top: 53.52%;
-bottom: 43.85%;
+left: 87.32%;
+right: 10.88%;
+top: 74.52%;
+bottom: 21.85%;
 
-background: url("../../images/vetor_lapis_laranja.png");
+background: url(../../images/vetor_lapis_laranja.png);
+background-repeat: no-repeat;
 }
 
 #altere-senha {
