@@ -1,115 +1,82 @@
-body, html {
+body {
+    font-family: sans-serif;
+    font-weight: bold;
     margin: 0;
-    padding: 0;
-    height: 100%;
+    display: flex;
+    height: 100vh;
 }
-.seletor .direito {
-    font-family: "Roboto", "Helvetica Neue", Helvetica, sans-serif;
-}
- 
 .esquerdo {
     width: 50%;
-    height: 100%;
-    float: left;
+    background-image: url('../../images/gatinho.png');
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 25%;
 }
-  
-  
-.esquerdo img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.title h1 {
-    color: orange;
-  }
 .direito {
     width: 50%;
-    height: 100%;
-    float: right;
-    padding: 20px;
-    box-sizing: border-box; /* Garante que o padding não altere a largura total */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
-  
-.direito form {
-    font-size: 18px; /* Altere o tamanho da fonte do formulário */
+.title {
+    color: orange;
 }
-  
-.direito .form-header {
-    text-align: center; /* Alinha o cabeçalho do formulário ao centro */
-    margin-bottom: 30px; /* Adiciona um espaço entre o cabeçalho e os campos */
-}
-  
-.direito .input-group {
-    margin-bottom: 20px; /* Adiciona um espaço entre os campos */
-}
-  
-.direito .input-box {
-    margin-bottom: 10px; /* Adiciona um espaço entre as caixas de entrada */
-}
-  
-.direito input[type="text"],
-.direito input[type="email"],
-.direito select,
-.direito textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px; /* Altera o tamanho da fonte das caixas de entrada */
-    border: 1px solid orange; /* Adiciona uma borda às caixas de entrada */
-    border-radius: 5px; /* Adiciona bordas arredondadas às caixas de entrada */
-    box-sizing: border-box; /* Garante que o padding não altere a largura total */
-}
-  
-.direito input[type="radio"],
-.direito input[type="checkbox"] {
-    margin-right: 10px; /* Adiciona um espaço entre os botões de opção */
-}
-  
-.direito button {
-    width: 100%;
-    padding: 10px;
-    font-size: 18px; /* Altera o tamanho da fonte do botão */
-    background-color: orange; /* Cor de fundo do botão */
-    color:white; /* Cor do texto do botão */
-    font-weight: bold; /* Negrito */
-    border-radius: 5px;
-    cursor: pointer;
-}
-  
-.direito button:hover {
-    background-color: grey; /* Cor de fundo do botão ao passar o mouse */
-}
-.foto {
-    position: relative;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background-color: #ccc;
+form {
+    width: 85%;
     text-align: center;
-    line-height: 150px;
-    overflow: hidden;
 }
 
+.foto {
+    padding: 30px;
+}
 .foto input[type="file"] {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    opacity: 0;
+    border-radius: 50%; /* Define o formato de círculo */
+    border: 5px solid orange; /* Adiciona uma borda */
+    padding: 50px; /* Espaçamento interno */
+    width: 150px; /* Largura do input */
+    height: 150px; /* Altura do input */
+    box-sizing: border-box; /* Inclui a largura da borda no cálculo do tamanho total */
+    background-image: url('../../images/foto-do-animal\(arquivo\).png');
     cursor: pointer;
 }
-
-.foto::before {
-    content:"📸";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 20px;
-    color: #fff;
-    text-align: center;
+.nome { 
+    padding: 10px;
 }
 
-.foto {
+.nome input[type="text"] {
+    width: 44.5%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid orange;
+}
+
+.email{
+    padding: 10px;
+}
+.email input[type="email"] {
+    width: 95%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px solid orange;
+}
+.button button {
+    width: 80%;
+    background-color: orange;
+    border-radius: 20px;
+    height: 50px;
+    padding: 20px;
+    
+    
+}
+
+.button {
+    padding: 60px;
+    height: 50px;
     text-align: center;
+    
+    
+}
+a {
+    color: white;
+    font-weight: bold;
 }
