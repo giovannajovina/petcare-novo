@@ -12,10 +12,9 @@ body {
     background-position: center;
 }
 .direita {
+    padding-top: center;
     width: 50%;
-    background-color: white;
     display: flex;
-    justify-content: baseline;
     align-items: center;
     flex-direction: column;
 }
