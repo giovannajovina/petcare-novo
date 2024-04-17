@@ -3,64 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_cadastropet.css">
+    <link rel="stylesheet" href="../pet/style_cadastropet.css">
     <title>Cadastro do PET</title>
 </head>
 <body>
   
-  <div class="left-section"></div>
-  <div class="right-section">  
-
+  <div class="esquerda"></div>
+  <div class="direita">  
+    
     <h1>Cadastre seu PET</h1>
-  
+
     <form>
 
-      <div class="grupo1">
-        <div class="file-input-container">
-              <label class="file-input-label" for="foto"></label>
-              <input type="file" id="foto" name="foto" class="file-input" accept="image/*" required>
-        </div>
+      <div class="arquivo">
+        <label class="foto" for="foto"></label>
+        <input type="file" id="foto" name="foto" class="upload-foto" accept="image/*" required>
       </div>
 
-      <div class="grupo1">
-          <input type="text" id="username" name="username" placeholder="Nome do PET" required>
-          <select id="especie" name="especie" required>
-              <option value="">Selecione a espécie</option>
-              <option value="Cachorro">Cachorro</option>
-              <option value="Gato">Gato</option>
-          </select>
+
+      <input type="text" id="username" name="username" placeholder="Nome do PET" required>
+      <select id="especie" name="especie" required>
+          <option value="">Selecione a espécie</option>
+          <option value="Cachorro">Cachorro</option>
+          <option value="Gato">Gato</option>
+      </select>
+
+      <div class="checkbox-group">
+        <label for="deficiencia">Possui alguma deficiência
+        <input type="checkbox" id="deficiencia" name="deficiencia"></label>
       </div>
 
-      <div class="form-group">
-        <div class="checkbox-group">
-          <label for="deficiencia">Possui alguma deficiência
-          <input type="checkbox" id="deficiencia" name="deficiencia"></label>
-        </div>
-        <div class="checkbox-group">
-          <label for="castrado">Castrado
-            <input type="checkbox" id="castrado" name="castrado"></label>
-        </div>
-      </div>
-
-      <div class="peso-animal">
-        <div class="imagem-peso">
-          <img src="../../petcare-novo/images/peso(5).png" alt="Até 5kg">
-          <img src="../../petcare-novo/images/peso(5-10).png" alt="5-10kg">
-          <img src="../../petcare-novo/images/peso(10-20).png" alt="10-20kg">
-          <img src="../../petcare-novo/images/peso(20-40).png" alt="20-40kg">
-        </div>
-        <div class="peso">
-          <input type="checkbox" id="porte1" name="porte" value="até 5kg">
-          <input type="checkbox" id="porte2" name="porte" value="até 10kg">
-          <input type="checkbox" id="porte3" name="porte" value="até 20kg">
-          <input type="checkbox" id="porte4" name="porte" value="até 40kg">
-        </div>
-      </div>
--
-      <div class="botao">
-        <button type="submit" value="Enviar">PROXIMA PÁGINA</button>
+      <div class="checkbox-group">
+        <label for="castrado">Castrado
+        <input type="checkbox" id="castrado" name="castrado"></label>
       </div>
       
+      <div class="peso-animal">
+        <label for="peso"><img src="../images/peso(5).png" alt="Até 5kg">
+        <input type="checkbox" id="porte1" name="porte" value="até 5kg"></label>
+      
+        <label for="peso"><img src="../images/peso(5-10).png" alt="5-10kg">
+        <input type="checkbox" id="porte2" name="porte" value="até 10kg"></label>
+
+        <label for="peso"><img src="../images/peso(10-20).png" alt="10-20kg">
+        <input type="checkbox" id="porte3" name="porte" value="até 20kg"></label>
+    
+        <label for="peso"><img src="../images/peso(20-40).png" alt="20-40kg">
+        <input type="checkbox" id="porte4" name="porte" value="até 40kg"></label>
+      </div>
+      
+      <button type="submit" value="Enviar">PROXIMA PÁGINA</button>
+
     </form>
   </div>
   
