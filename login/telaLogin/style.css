@@ -1,87 +1,74 @@
 body {
-    font-family: sans-serif;
-    font-weight: bold;
     margin: 0;
     padding: 0;
-    display: flex;
     height: 100vh;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: bold;
 }
-.left-section {
+.esquerda {
     width: 50%;
     background-image: url('../../images/cachorro-login.jpg');
     background-position: center;
 }
-.right-section {
+.direita {
+    padding-top: center;
     width: 50%;
-    background-color: white;
     display: flex;
-    justify-content: baseline;
     align-items: center;
     flex-direction: column;
 }
+img {
+    width: 256px;
+}
 form {
-    width: 35%;
-    height: 225px;
-    background-color: rgb(255, 255, 255); 
-    z-index: 2;
+    width: 45%;
 }
-img.logo {
-    display: block;
-    margin: 0 auto 20px;
-    width: 256px; 
-}
-input[type="text"] {
-    width: 100%;
-    padding: 15px;
-    margin: 15px 0; 
-    box-sizing: border-box;
+input[type="email"] {
     background-image: url('../../images/boneco-login.png');
-    background-size: 25px 25px; 
+    background-size: 25px 25px;
     background-repeat: no-repeat;
     background-position: 10px center;
-    padding-left: 40px; 
-    border-radius: 15px; 
-    color: #F28907; 
-    border-color: #F28907;
+
 }
 input[type="password"] {
+    background-image: url('../../images/cadeado-login.png');
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 10px center;  
+}
+input[type="password"], input[type="email"] {
     width: 100%;
     padding: 15px;
     margin: 15px 0;
     box-sizing: border-box;
-    background-image: url('../../images/cadeado-login.png');
-    background-size: 25px 25px;
-    background-repeat: no-repeat;
-    background-position: 10px center;
     padding-left: 40px;
     border-radius: 15px;
-    color: #F28907;
-    box-shadow: 0 0 5px #F28907; 
-    border-color: #F28907;   
+    color: #F28907;  
+    box-shadow: 0 0 4px #F28907;
+    border: 5px solid #F28907;
 }
-input[type="submit"] {
-    background-color: #F28907; 
+button {
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: #F28907;
     color: white;
     cursor: pointer;
     border-radius: 20px;
-    width: 100%;
-    padding: 10px;
-    margin: 15px 0; 
     box-sizing: border-box;
-    background-repeat: no-repeat;
-    background-position: 10px center;
     border: none;
+    font-family: sans-serif;
+    font-weight: bold;
 }
-.teste a {
+.opcoes a {
     margin-left: 150px;
     color: #F28907;
 }
-.teste{
-    margin-bottom: 130px;
-}
-.cada a{
+.opcoes{
+    margin-bottom: 70px;
     color: #F28907;
 }
-.t{
+.conta a{
     color: #F28907;
 }
