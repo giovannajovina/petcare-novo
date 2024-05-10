@@ -1,0 +1,150 @@
+body {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.parte-superior {
+  align-items: flex-start;
+  background-image: url("../images/mapa.png");
+  background-position: center;
+  height: 40vh;
+}
+.endereco {
+  background-color: #f28907;
+  color: white;
+  font-weight: bold;
+  padding: 5px;
+  text-align: center;
+  width: 30%;
+}
+.parte-inferior {
+  align-items: flex-start;
+  display: flex;
+  height: 60vh;
+}
+.secao-direita {
+  width: 100%;
+}
+.secao-esquerda {
+  padding: 15px;
+  text-align: center;
+  width: 100%;
+}
+input[type="search"] {
+  border: 5px solid #f28907;
+  border-radius: 15px;
+  box-shadow: 0 0 4px #f28907;
+  margin: 20px;
+  padding: 10px;
+  width: 90%;
+}
+.conta {
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  height: 280px;
+  margin-bottom: 16px;
+  position: relative;
+  width: 100%;
+}
+.foto {
+  left: 10px;
+  position: absolute;
+  top: 10px;
+}
+.mapa {
+  position: absolute;
+  right: 15px;
+  top: 100px;
+}
+.conta h1 {
+  left: 120px;
+  position: absolute;
+  top: 1px;
+}
+.conta h2 {
+  left: 120px;
+  position: absolute;
+  top: 35px;
+}
+.conta p {
+  left: 10px;
+  position: absolute;
+  text-align: justify;
+  top: 100px;
+  width: 45%;
+}
+.conta button {
+  background-color: #f28907;
+  border: none;
+  border-radius: 15px;
+  bottom: 10px;
+  color: white;
+  font-weight: bold;
+  left: 30px;
+  padding: 10px;
+  position: absolute;
+  width: 30%;
+}
+
+.perfil {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  height: 160vh;
+  text-align: center;
+}
+.wallpaper {
+  background-image: url("../images/wallpaper-cachorro.png");
+  height: 30vh;
+}
+.usuario {
+  height: 25vh;
+  position: relative;
+}
+.usuario img {
+  left: 10px;
+  position: absolute;
+  top: 10px;
+}
+.usuario h1 {
+  left: 140px;
+  position: absolute;
+  top: 1px;
+}
+.usuario h2 {
+  left: 140px;
+  position: absolute;
+  top: 35px;
+}
+.servicos {
+  display: flex;
+  justify-content: center;
+}
+.servicos .elemento {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  height: 30vh;
+  margin-right: 20px;
+  text-align: center;
+  width: 35%;
+}
+.porte {
+  display: flex;
+  justify-content: center;
+}
+.peso {
+  border: 5px solid #f28907;
+  border-radius: 15px;
+  margin-bottom: 100px;
+  width: 75%;
+}
+.perfil button {
+  background-color: #f28907;
+  border: none;
+  border-radius: 15px;
+  bottom: 10px;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  width: 50%;
+}
