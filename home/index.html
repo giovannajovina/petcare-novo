@@ -1,47 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
     <title>Home</title>
-    <link rel="stylesheet" href="./index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-
-</head>
-<body>
-    
-<main>
-    <section class="capa ">
-        <div class="botoes-login d-flex justify-content-end  align-end me-3 pt-3">
-            <button type="button" class="login rounded">Login</button>
-            <button type="button" class="cadastre rounded">Cadastre-se</button>
+  </head>
+  <body>
+    <div class="superior">
+      <div class="esquerda">
+        <div class="elemento">
+          <a href=".././cliente/perfilCliente/perfilCliente.html"><img src="../images/perfil.png" alt="" /></a>
         </div>
-        <div class="texto-capa d-flex justify-content-end  align-end">
-            PetCare a maior rede de cuidadores da região
+        <div class="elemento">
+          <a href=""><img src="../images/lupa.png" alt="" /></a>
         </div>
+        <div class="elemento">
+          <a href="../historicos/servico/historicoServicos.html"><img src="../images/pasta.png" alt="" /></a>
+        </div>
+        <div class="elemento">
+          <a href="../pet/perfilPet/perfilPet.html"><img src="../images/pata.png" alt="" /></a>
+        </div>
+        <div class="elemento">
+          <a href=""><img src="../images/sair.png" alt="" /></a>
+        </div>
+      </div>
+      <div class="direita">
         <div>
-            <a href="../agendamento/index.html">Agende agora</a>
-            <!-- <button type="button" class="btn-agende">Agende Agora</button> -->
+            <h1>PetCare a maior rede de cuidadores da região</h1>
         </div>
-    </section>
-    <div>
-        <a href=".././cliente/perfilCliente/perfilCliente.html">
-            PERFIL DO USUARIO
-        </a>
-        <br><br><br>
-        <a href="../pet/perfilPet/perfilPet.html">
-            PERFIL DO PET
-        </a><br><br><br>
-        <a href="">
-            PESQUISAR CUIDADORES(SEM LINK)
-        </a><br><br><br>
-        <a href="../historicos/servico/historicoServicos.html">
-            HISTORICO DE AGENDAMENTOS
-        </a><br><br><br>
-        LOGOUT
+        <div class="agendar">
+            <button><a href="../agendamento/index.html">AGENDE AGORA</a></button>
+        </div>
+        <div class="login">
+            <button><a href="../login/telaLogin/login.html">Login</a></button>
+        </div>
+        <div class="cadastro">
+            <button><a href="../cliente/cadastroCliente/cadastroCliente.html">Cadastre-se</a></button>
+        </div>
+      </div>
     </div>
-</main>
-
-</body>
+    <div class="inferior">
+      <div class="noticia">
+        <div class="item">
+            <img src="../images/cãoEhomem.jpg" alt=""> 
+        </div>
+        <div class="item">
+            <h2>PET <span class="destaque">HOME</span></h2>
+            <p>O PET HOME permite que o seu PET fique na casa de excelentes cuidadores qualificados</p>
+            <h2>PET <span class="destaque">TRIP</span></h2>
+            <p>O cuidador vai até a sua casa, e cuida do seu pet pelo tempo escolhido </p>
+        </div>
+      </div>
+  </body>
 </html>

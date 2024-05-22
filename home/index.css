@@ -1,36 +1,95 @@
-:root,
-[data-bs-theme=light] {
-  --bs-orange: #F28907;
+body {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
 }
-main{
-    font-family: Arial, Helvetica, sans-serif;
+.superior {
+  align-items: flex-start;
+  background-image: url("../images/gato.png");
+  background-position: center;
+  display: flex;
+  height: 60vh;
+  margin: 0;
+  padding: 0;
 }
-.capa{
-    background: url(../images/capa_home.png);
-    background-size: cover;
-    height: 510px;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-
+.inferior {
+  display: flex;
+  height: 60vh;
+  justify-content: center;
 }
-.botoes-login{
-    gap:20px
+.esquerda {
+  background-color: white;
+  height: 100%;
+  text-align: center;
+  width: 5%;
 }
-
-.login,.cadastre{
-    color: white;
-    background-color: var(--bs-orange);
-    border: none;
-    height: 45px;
-    font-weight: bold;
+.direita {
+  height: 100%;
+  width: 95%;
 }
-
-.texto-capa{
-    font-weight: bold;
-    color: white;
-    width: 500px;
-    font-size: 47px;
-    margin-right: 183px;
-    margin-top: 40px;
+.superior .esquerda .elemento {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.direita h1 {
+  color: white;
+  position: absolute;
+  right: 30%;
+  text-align: justify;
+  top: 100px;
+  width: 30%;
+}
+.direita .agendar button {
+  background-color: #f28907;
+  border: 5px solid #f28907;
+  border-radius: 15px;
+  padding: 10px;
+  position: absolute;
+  right: 30%;
+  top: 35%;
+  width: 30%;
+}
+.direita .login button {
+  background-color: #f28907;
+  border: 5px solid #f28907;
+  border-radius: 15px;
+  padding: 10px;
+  position: absolute;
+  right: 15%;
+  top: 5%;
+  width: 10%;
+}
+.direita .cadastro button {
+  background-color: #f28907;
+  border: 5px solid #f28907;
+  border-radius: 15px;
+  padding: 10px;
+  position: absolute;
+  right: 4%;
+  top: 5%;
+  width: 10%;
+}
+.noticia {
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  height: 80%;
+  justify-content: center;
+  width: 80%;
+}
+.noticia .item {
+  height: 100%;
+  text-align: center;
+  width: 100%;
+}
+.cuidador .caixa .cima {
+  background-color: #f28907;
+}
+.inferior .noticia img {
+  height: 100%;
+  width: 65%;
+}
+.destaque {
+  color: #f28907;
 }
