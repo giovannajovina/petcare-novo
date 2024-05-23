@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>PetCare</title>
+  </head>
+  <body>
+    <div class="titulo">
+      <h1>Insira as informações de <span class="destaque">compra</span></h1>
+    </div>
+
+    <form>
+      <div class="caixa">
+        <div class="elemento">
+          <label for="nome">Seu nome</label><br />
+          <input type="text" required /><br />
+
+          <label for="endereco">Seu endereço</label><br />
+          <input type="text" required /><br />
+
+          <h2>Para <span class="destaque">Quando?</span></h2>
+
+          <label for="inicio">Selecione a data de início</label><br />
+          <input type="date" /><br />
+
+          <label for="fim">Selecione a data de término</label><br />
+          <input type="date" /><br />
+        </div>
+
+        <div class="elemento">
+          <label for="cpf">Seu CPF</label><br />
+          <input type="text" required /><br />
+
+          <label for="servico">Selecione o tipo de serviço</label><br />
+          <select name="servico" id="servico" required>
+            <option value="home">PET HOME</option>
+            <option value="trip">PET TRIP</option>
+          </select>
+
+          <div class="caixa2">
+            <div class="elemento1">
+              <h2>Serviço</h2>
+              <p>PET <span class="destaque">HOME</span></p>
+            </div>
+
+            <div class="elemento1">
+              <h2>Total</h2>
+              <p>R$197,09</p>
+            </div>
+          </div>
+
+          <div class="botao">
+            <button>Confirmar Agendamento</button>
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
