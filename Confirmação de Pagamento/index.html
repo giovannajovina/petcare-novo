@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processando Seu Pagamento</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .container h1 {
+            font-size: 2em;
+            color: #333;
+        }
+        .container h3 {
+            color: orange;
+            font-size: 1.5em;
+            line-height: 1.5;
+            margin-top: 10px;
+        }
+        .orange {
+            color: orange;
+        }
+        .loading-bar {
+            width: 50%;
+            background-color: orange;
+            padding: 10px 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5em;
+            font-weight: bold;
+            color: white;
+            border-radius: 10px;
+            margin: 20px auto;
+        }
+        .image-container {
+            margin-top: 20px;
+        }
+        .image-container img {
+            max-width: 30%; 
+    
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>PROCESSANDO SEU <span class="orange">PAGAMENTO</span></h1>
+        <h3>Aguarde enquanto nosso sistema<br>processa seu pagamento.</h3>
+        <div class="image-container">
+            <img src="/Loading.jpg" alt="Imagem de exemplo">
+        </div>
+        <div class="loading-bar">Loading...</div>
+    </div>
+</body>
+</html>
