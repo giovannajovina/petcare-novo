@@ -1,0 +1,81 @@
+body {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+.superior {
+  width: 100%;
+}
+.inferior {
+  display: flex;
+  height: 80vh;
+}
+.inferior .esquerda {
+  text-align: center;
+  width: 50%;
+}
+.inferior .direita {
+  background-image: url("../../images/mapa-historico.png");
+  height: 100vh;
+  width: 50%;
+}
+h1 {
+  margin-left: 30px;
+}
+.select {
+  margin-bottom: 30px;
+}
+.select select {
+  background-color: #f28907;
+  border: 5px solid #f28907;
+  border-radius: 15px;
+  box-shadow: 0 0 4px #f28907;
+  color: white;
+  padding: 10px;
+  width: 45%;
+}
+.perfil .elemento {
+  background-color: white;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  height: 20vh;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  position: relative;
+  width: 95%;
+}
+.perfil .elemento .foto1 {
+  left: 10px;
+  position: absolute;
+  top: 10px;
+}
+.perfil .elemento .foto2 {
+  left: 120px;
+  position: absolute;
+  top: 80px;
+}
+.perfil .elemento .nome {
+  left: 120px;
+  position: absolute;
+  top: 1px;
+}
+.perfil .elemento .status {
+  left: 120px;
+  position: absolute;
+  top: 35px;
+}
+.perfil .elemento .preco {
+  position: absolute;
+  right: 50px;
+  top: 10px;
+}
+.perfil .elemento .servico {
+  position: absolute;
+  right: 50px;
+  top: 35px;
+}
+.destaque {
+  color: #f28907;
+}
