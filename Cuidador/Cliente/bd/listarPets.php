@@ -19,7 +19,7 @@ function listarPets(){
 }
 function buscaPet($idPet){
    
-    $sql = "select tblPets.* from tblPets
+    $sql = "select tblpets.* from tblpets
    
       where tblPets.idPet =".$idPet;
     
